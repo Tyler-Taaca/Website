@@ -1,0 +1,44 @@
+.body {
+    max-width: 1680px;
+    min-width: 1450px;
+    
+}
+
+.title4 {
+    background-color: red;
+    background-image: linear-gradient(45deg,#1488CC, #2B32B2);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-size:8vh;
+    position: relative;
+    z-index: 1;
+    left: -1%;
+    padding: 0;
+}
+
+.move {
+    position: fixed;
+    top: 62vh;
+    left: 38%;
+    font-size: 3vh;
+}
+.container {
+    width: 80%;
+    height: 50%;
+    left: 50%;
+    top: 35%;
+}
+
+.end {
+    font-size: 2vh;
+}
+
+.head1{
+    height: 35vh;
+    width: 43vh;
+    position: relative;
+  }
+

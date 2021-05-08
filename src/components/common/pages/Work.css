@@ -1,0 +1,143 @@
+.body {
+        max-width: 1680px;
+        min-width: 1450px;
+        
+}
+
+.title3 {
+    background-color: red;
+    background-image: linear-gradient(45deg,#1488CC, #2B32B2);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-size:8vh;
+    position: relative;
+    z-index: 1;
+    left: 0%;
+}
+
+.welcome {
+    font-size: 2vh;
+    position: absolute;
+    top: 28%;
+    left: 3%;
+    align-content: center;
+}
+
+
+.contain {
+    position: relative;
+    width: 90%;
+    height:120vh;
+    left: 5%;
+}
+
+.spotify {
+    width: 20vh;
+    height: 20vh;
+    left: 10vh;
+    top: 5vh;
+    background-color: #1DB954;
+    border-radius: 30px;
+    position: relative;
+}
+
+.spotifyt{
+    position: absolute;
+    top: 10vh;
+    left: 0.75vh;
+    font-size: 3vh;
+    color: white;
+}
+
+.spot{
+    position: absolute;
+    width: 10vh;
+    height: 10vh;
+    left: 5.5vh;
+    top: 1.5vh;
+}
+
+.nike {
+    width: 50vh;
+    height: 20vh;
+    left: 32vh;
+    top:5vh;
+    background-color:black;
+    border-radius: 30px;
+    position: absolute;
+    z-index: 1;
+}
+
+.nike1{
+    position: absolute;
+    width: 21vh;
+    height: 10vh;
+    left: 15vh;
+    top: 1.5vh;
+}
+
+.niket{
+    position: absolute;
+    top: 10vh;
+    left: 13vh;
+    font-size: 3vh;
+    color: white;
+}
+
+.sea {
+    width: 20vh;
+    height: 20vh;
+    left: 84vh;
+    top: 5vh;
+    background-color: #5d98b1;
+    border-radius: 30px;
+    position: absolute;
+}
+
+.krak {
+        position: absolute;
+        width: 8vh;
+        height: 10vh;
+        left: 6vh;
+        top: 1.5vh;
+    
+}
+
+.seat{
+    position: absolute;
+    top: 9vh;
+    left: 1vh;
+    font-size: 3vh;
+    color: white;
+}
+
+.soon {
+    width: 38vh;
+    height: 20vh;
+    left: 106vh;
+    top: 5vh;
+    background-color: #F4F4F4;
+    border-radius: 30px;
+    position: absolute;
+}
+
+
+.soon1 {
+    position: absolute;
+    width: 10vh;
+    height: 10vh;
+    left: 12.5vh;
+    top: 1.5vh;
+
+}
+
+.soon2{
+    position: absolute;
+    top: 9vh;
+    left: 9vh;
+    font-size: 3vh;
+    color: gray;
+}

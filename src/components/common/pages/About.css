@@ -1,0 +1,417 @@
+
+.body {
+max-width: 1680px;
+min-width: 1450px;
+}
+.side {
+    width: 100%;
+    height: 60vh;
+    top: 5vh;
+    position: relative;
+
+
+}
+
+.block {
+    background:#F4F4F4;
+    width: 50%;
+    height: 43vh; 
+    border-radius: 25px;
+    top: 15%;
+    position: absolute;
+    left: 48%;
+
+}
+
+.b1{
+    background:#FFF;
+    width: 18%;
+    height: 30%; 
+    position: absolute;
+    border-radius: 15px;
+    top: 20%;
+    left: 54%;
+
+}
+
+.b1t {
+    margin-top: 0vh;
+    position:absolute;
+    font-size: 90%;
+    top: 55%;
+}
+
+.b3{
+    background:#FFF;
+    width: 18%;
+    height: 30%; 
+    position: absolute;
+    border-radius: 15px;
+    top: 20%;
+    left: 74%;
+
+}
+
+.b2{
+    background:#FFF;
+    width: 11%;
+    height: 30%; 
+    position: absolute;
+    border-radius: 15px;
+    top: 52%;
+    left: 54%;
+
+}
+
+.b4{
+    background:#FFF;
+    width: 11%;
+    height: 30%; 
+    position: absolute;
+    border-radius: 15px;
+    top: 52%;
+    left: 67.5%;
+
+}
+
+.b5{
+    background:#FFF;
+    width: 11%;
+    height: 30%; 
+    position: absolute;
+    border-radius: 15px;
+    top: 52%;
+    left: 81%;
+
+}
+
+
+.title2 {
+    background-color: red;
+    background-image: linear-gradient(45deg,#1488CC, #2B32B2);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-size: 12vh;
+    position: absolute;
+    top: -20%;
+    left: 48%;
+    z-index: 1;
+}
+
+.t{
+   font-size: 1.98vh;
+   margin-top: 14vh;
+   margin-left: 2vh;
+   position:absolute;
+    color: white;
+}
+
+.ban {
+    width: 50%;
+    height: 105%;
+    position: absolute; 
+    top: -3%;
+    left: -12%;   
+}
+
+.ban2 {
+    width: 50%;
+    height: 105%;
+    position: absolute; 
+    top: -3%;
+    left: 10%;   
+
+}
+
+.grad {
+    position: relative;
+    width: 8vh;
+    height: 8vh;
+    margin-top: 1vh;
+}
+
+
+.graph {
+    position: relative;
+    width: 8vh;
+    height: 8vh;
+    margin-top: 1vh;
+}
+
+
+
+.time {
+    position: relative;
+    height: 35%;
+    width: 0.7%;
+    top: 40%;
+    background:#F4F4F4;
+    left: 50%;
+    border-radius: 30px;
+}
+
+.time2 {
+    position: relative;
+    height: 35%;
+    width: 0.7%;
+    top: 90%;
+    background:#F4F4F4;
+    left: 50%;
+    border-radius: 30px;
+}
+
+.time3 {
+    position: relative;
+    height: 35%;
+    width: 0.7%;
+    top: 90%;
+    background:#F4F4F4;
+    left: 50%;
+    border-radius: 30px;
+}
+
+
+
+.time4 {
+    position: relative;
+    height: 20vh;
+    width: 1vh;
+    top:-20vh;
+    background:#F4F4F4;
+    left: 83vh;
+    border-radius: 30px;
+}
+
+
+.pg {
+    position: relative;
+    height: 60vh;
+    top:-20vh;
+    border-radius: 30px;
+}
+
+
+.pgp {
+    font-size: 2vh;
+    text-align: left;
+    left: 95vh;
+    position: relative;
+
+}
+
+.text {
+    width: 32%;
+    height: 30%;
+    left: -5%;
+    top: 25vh;
+    position: relative;
+}
+
+.text2 {
+    width: 32%;
+    height: 30%;
+    left: 4%;
+    top: 45vh;
+    position: relative;
+
+}
+
+.twentyone {
+    background-color: red;
+    background-image: linear-gradient(45deg,#1488CC, #2B32B2);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    position: relative;
+    font-size: 15vh;
+    top: 45vh;
+    left: 1%;
+}
+
+.events {
+    width: 80%;
+    height: 90vh;
+    top: 55vh;
+    left: 10%;
+    position: relative;
+}
+
+.time3 {
+    position: absolute;
+    height: 15%;
+    width: 0.9%;
+    top: 5%;
+    background:#F4F4F4;
+    left: 50.5%;
+    border-radius: 30px;
+}
+
+.pgt {
+    background-color: red;
+    background-image: linear-gradient(45deg,#1488CC, #2B32B2);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-size: 4.5vh;
+    top:23%;
+    text-align: left;
+    left: 55%;
+    position: absolute;
+
+}
+
+.pgt2 {
+    background-color: red;
+    background-image: linear-gradient(45deg,#1488CC, #2B32B2);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-size: 2.9vh;
+    top:37%;
+    text-align: left;
+    left: 55%;
+    position: absolute;
+
+}
+
+.pgtt {
+    font-size: 1.8vh;
+    top:45%;
+    position: absolute;
+    text-align: left;
+    left: 55%;
+}
+
+.pamp {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    left: 0;
+    top: 27%;
+    z-index: 3;
+}
+
+.pamp1 {
+    position: absolute;
+    width: 40%;
+    height: 35%;
+    left: -5%;
+    top: 24%;
+    z-index: 2;
+}
+
+.pamp2 {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    left: 5%;
+    top: 35%;
+    z-index: 3;
+}
+
+.taga {
+    position: absolute;
+    background:#1488CC;
+    width: 15%;
+    height: 5vh; 
+    border-radius: 25px;
+    top: 57.5%;
+    position: absolute;
+    left: 54.8%;
+    
+}
+
+
+.taga1 {
+    position: absolute;
+    background:#1488CC;
+    width: 15vh;
+    height: 5vh; 
+    border-radius: 25px;
+    top: 54vh;
+    position: absolute;
+    left: 54.8%;
+    
+}
+
+.taga2 {
+    position: absolute;
+    background: #2B32B2;
+    width: 15%;
+    height: 5vh; 
+    border-radius: 25px;
+    top: 57.5%;
+    position: absolute;
+    left: 71%;
+    
+}
+
+.tagword {
+    color: white;
+    font-size: 100%;
+    text-align: center;
+    top: -40;
+}
+
+
+.events2 {
+    width: 80%;
+    height: 90vh;
+    top: 27vh;
+    left: 10%;
+    position: relative;
+}
+
+.events3 {
+    width: 80%;
+    height: 90vh;
+    top: 5vh;
+    left: 10%;
+    position: relative;
+}
+
+.a {
+    position: absolute;
+    width: 25%;
+    height: 40%;
+    left: -5%;
+    top: 26%;
+    z-index: 5;
+}
+
+.b {
+    position: absolute;
+    width: 23%;
+    height: 35%;
+    left: 20%;
+    top: 24%;
+    z-index: 1;
+}
+
+
+.c {
+    position: absolute;
+    width: 28%;
+    height: 40%;
+    left: 5%;
+    top: 28%;
+    z-index: 3;
+}
+
+.d {
+    position: absolute;
+    width: 25%;
+    height: 28%;
+    left: 22%;
+    top: 30%;
+    z-index: 2;
+}

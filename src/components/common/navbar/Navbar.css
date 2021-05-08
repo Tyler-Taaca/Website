@@ -1,0 +1,39 @@
+.container{
+position: absolute;
+transform: translateX(-50%) translateY(-50%); 
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .navbar-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    color: inherit;
+    text-decoration: inherit;
+    outline: none;
+    height: 60px;
+    color:#555555;
+  }
+
+  .navbar-item:hover{
+      color: black;
+  }
+
+
+  li {
+      display:  inline-block;
+  }
+
+  li a{
+      text-decoration: none;
+      display: inline-block ;
+
+  }
+
+  a {
+    text-decoration: none;
+  }
