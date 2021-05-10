@@ -3,42 +3,63 @@ import './Home.css';
 import Typical from 'react-typical'
 import {Link} from 'react-router-dom'
 import headshot from './head.png'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { motion } from "framer-motion"
 
 function Home(){
     return(
 
         
-        <div className='body'>
+        <div>
 
-            <img src={headshot} alt='headshot' className='head'></img>
-            <div className="Container">
-            <div className="buttons">
-                <Link to="/work" class='btn btn-3'>My Work </Link>
-            </div>
-            </div>
+        <div className='contain'>
+            <div className='row'>
+            <div className='col-sm-4'>
 
-            <div className='parent'>
-            <h1 className='title'>Hi, I'm Tyler Taaca!</h1>
-            <p className='mid'> I am {' '}
+            <img src={headshot} alt='headshot' className='img'></img>
+
+            </div>
+                <div class='col-sm-6'>
+                <h1 className='title'>Hi, I'm Tyler Taaca!</h1>
+                <h2 className='mid'> I am {' '}
             <Typical
                 loop={Infinity}
                 wrapper="b"
                 steps={
                     [
                         'an aspiring product manager 🧠',3000,
-                        'passionate about statistics and data-science 🎲', 3000,
+                        'passionate about statistics 🎲', 3000,
                         'a big movie fanatic 🎥', 3000,
                         'a curious tech-fan 🤖', 3000,
                         'a basketball fanatic 🏀', 3000,
-                        'an avid reader of autobiographies 📚', 3000
+                        'a big fan of autobiographies 📚', 3000
                     ]
                 }
             />
-            </p>
-            <p className='mini'>Thanks for taking the time to see my website, you can get started by viewing  <br/> my work below or using the menu above!</p>
+            </h2>
 
+            <p className='mini'>Thanks for taking the time to see my website, you can get started <br></br> by viewing my work below or using the menu above!</p>
+
+            <Link to="/work" className='boo'> 
+                        <motion.div className="buttons"
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.9 }}>
+                            Work and Projects
+                        </motion.div>
+            </Link>
+                </div>
+
+           
             </div>
+
+        
+        </div>
+        
+
+
+
+
+
 
 
 

@@ -1,9 +1,25 @@
 .body {
-        max-width: 1680px;
-        min-width: 1450px;
-        
+    
 }
 
+.con{
+    width:100%;
+    position: fixed;
+    top: 20%;
+}
+
+.con2{
+    width:100%;
+    height: auto;
+    top: 40%;
+    position: fixed;
+    text-align: center ;
+}
+
+.row {
+    height: fit-content;
+    text-align: center;
+}
 .title3 {
     background-color: red;
     background-image: linear-gradient(45deg,#1488CC, #2B32B2);
@@ -12,132 +28,100 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
-    font-size:8vh;
-    position: relative;
+    font-size:7vh;
     z-index: 1;
-    left: 0%;
+    font-weight: bold;
 }
 
 .welcome {
-    font-size: 2vh;
-    position: absolute;
-    top: 28%;
-    left: 3%;
-    align-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.2vh;
 }
 
-
-.contain {
-    position: relative;
-    width: 90%;
-    height:120vh;
-    left: 5%;
-}
 
 .spotify {
-    width: 20vh;
+    width:20vh;
     height: 20vh;
-    left: 10vh;
-    top: 5vh;
     background-color: #1DB954;
     border-radius: 30px;
-    position: relative;
 }
 
 .spotifyt{
-    position: absolute;
-    top: 10vh;
-    left: 0.75vh;
-    font-size: 3vh;
+    padding-top: 20%;
+    font-size: 2.8vh;
     color: white;
+    text-align: center;
+}
+
+.boo2 {
+    text-decoration: none;
 }
 
 .spot{
-    position: absolute;
-    width: 10vh;
-    height: 10vh;
-    left: 5.5vh;
-    top: 1.5vh;
+    top: 2vh;
+    width: 50%;
+    height: auto;
+
 }
 
 .nike {
-    width: 50vh;
+    width:20vh;
     height: 20vh;
-    left: 32vh;
-    top:5vh;
     background-color:black;
     border-radius: 30px;
-    position: absolute;
-    z-index: 1;
 }
 
 .nike1{
-    position: absolute;
-    width: 21vh;
-    height: 10vh;
-    left: 15vh;
-    top: 1.5vh;
+    top: 3vh;
+    width: 75%;
+    height: auto;
 }
 
 .niket{
-    position: absolute;
-    top: 10vh;
-    left: 13vh;
-    font-size: 3vh;
+    padding-top: 26%;
+    font-size: 2.8vh;
     color: white;
+    text-align: center;
 }
 
 .sea {
-    width: 20vh;
+    width:20vh;
     height: 20vh;
-    left: 84vh;
-    top: 5vh;
     background-color: #5d98b1;
     border-radius: 30px;
-    position: absolute;
 }
 
 .krak {
-        position: absolute;
-        width: 8vh;
-        height: 10vh;
-        left: 6vh;
-        top: 1.5vh;
+    top: 1.75vh;
+    width: 45%;
+    height: auto;
     
 }
 
 .seat{
-    position: absolute;
-    top: 9vh;
-    left: 1vh;
-    font-size: 3vh;
+    padding-top: 10%;
+    font-size: 2.8vh;
     color: white;
+    text-align: center;
 }
 
 .soon {
-    width: 38vh;
+    width:30vh;
     height: 20vh;
-    left: 106vh;
-    top: 5vh;
     background-color: #F4F4F4;
     border-radius: 30px;
-    position: absolute;
 }
 
 
 .soon1 {
-    position: absolute;
-    width: 10vh;
-    height: 10vh;
-    left: 12.5vh;
-    top: 1.5vh;
-
+    top: 5%;
+    width: 40%;
+    height: auto;
 }
 
 .soon2{
-    position: absolute;
-    top: 9vh;
-    left: 9vh;
-    font-size: 3vh;
-    color: gray;
+    padding-top: 3%;
+    font-size: 2.8vh;
+    color:gray;
+    text-align: center;
 }
