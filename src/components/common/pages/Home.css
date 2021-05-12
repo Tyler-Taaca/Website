@@ -47,17 +47,22 @@ img {
     display: flex;
     font-size: auto;
     font-weight: bold;
-  
+    color: white;
 
   }
 
   .boo {
     text-decoration: none;
     color: white;
+
   }
 
 .boo :hover {
   color: white;
+  box-shadow:linear-gradient(
+    225deg,
+    #1488CC 0%,
+    #2B32B2 100%);
 }
 
 

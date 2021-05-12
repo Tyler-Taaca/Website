@@ -3,22 +3,24 @@ import './About.css';
 import image from './P1.png'
 import image2 from './P2.png'
 import image3 from './Grad.svg'
-import image4 from './d.svg'
 import image5 from './dog.svg'
-import image6 from './code.svg'
 import image7 from './image7.svg'
 import image8 from './t1.png'
 import image9 from './t2.png'
 import image10 from './Pampers_logo.png'
-import image11 from './S1.png'
-import image12 from './S2.png'
-import image13 from './S3.png'
+import image12 from './ta1.png'
 import image14 from './shoe.png'
-import image15 from './manc.png'
+import image15 from './ky.png'
 import image16 from './book.png'
+import image17 from './think.png'
+import image18 from './comp.png'
+import image19 from './sweat.png'
+
+
 import { motion } from "framer-motion"
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import Tilt from 'react-tilt'
 
 function About(){
 
@@ -29,121 +31,441 @@ function About(){
     return(
 
         <div className='body'>
+
+
+            <div className='row'>
+                <div className='col-sm-5'>
+
+                </div>
+                <div className='col-sm-4'>
+                </div>
+                <div className='col-sm-3'>
+                    
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+            <div className='row'>
+            <div className='col-sm-1'> </div>
+            <div className='col-sm-2'> 
+                <Tilt>
+                <motion.img src={image} className='ban'
+                initial={{opacity:0}} animate={{opacity:1}} transition={{delay:2}}></motion.img>
+                </Tilt>
+            </div>
+            <div className='col-sm-2'> 
+            <Tilt>
+            <motion.img src={image2} className='ban'
+            initial={{opacity:0}} animate={{opacity:1}} transition={{delay:3}}
+            ></motion.img>
+            </Tilt>
+            </div>
+
+            <div className='col-sm-6'> 
+
+                <Tilt>
+                <motion.h1 className='about'
+                initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1}}
+                >About Me</motion.h1>
+                </Tilt>
+
+
+                <div className='box'> 
+
             
-            <div className='side'>
                 
-                <motion.h1 initial={{opacity:0}} animate={{opacity:1}} transition={{delay:3}} className='title2'>About</motion.h1>
-                <motion.div className='block' initial={{opacity:0}} animate={{opacity:1}} transition={{delay:3}}></motion.div>
-                <motion.p className='t' initial={{opacity:0}} animate={{opacity:1}} transition={{delay:3}} ></motion.p>
+                    <div className='row'>
 
-            
-                <motion.div className='b1' initial={{opacity:0}} animate={{opacity:1}} transition={{delay:4}}>
-                    <img src={image3} alt="Grad" className='grad'></img>
-                    <p className='b1t'> I am third year university at the Schulich <br />  School of Business who is <b>graduating in Summer 2022!</b></p>
-                </motion.div>
+
+                                    <div className='col-sm-1'> </div>
+                                    <div className='col-sm-5'> 
+                                    
+                                        <motion.div className='fact1'
+                                        initial={{opacity:0}} animate={{opacity:1}} transition={{delay:4}}
+                                        >
+                                            
+                                            <img src={image3} className='grad'></img>
+                                            <p className='fact1t'>I go to the Schulich School of Business for <b>Ops and Information Systems</b>, my expected <b>graduation is Apr 2022.</b></p>
+                                            
+                                        </motion.div>
+
+                                    </div>
+
+                                    <div className='col-sm-5'> 
+
+                                            <motion.div className='fact1'
+                                            initial={{opacity:0}} animate={{opacity:1}} transition={{delay:5}}
+                                            >
+                                            <img src={image16} className='grad'></img>
+                                            <p className='fact1t'> <b>I am a storyteller who enjoys all forms of creating a narrative</b> whether it be creating movies, music, or even art!</p>
+                                            </motion.div>
+
+                                    </div>
+
+                                    <div className='col-sm-1'> </div>
                 
-                <motion.div className='b2' initial={{opacity:0}} animate={{opacity:1}} transition={{delay:6}}>
-                <img src={image7} alt="Grad" className='graph'></img>
-                    <p className='b1t'> I love cooking Asian food, such as KBBQ, Sushi, and Dim Sum!</p>
-                </motion.div>
-
-                <motion.div className='b3' initial={{opacity:0}} animate={{opacity:1}} transition={{delay:5}}>
-                    <img src={image4} alt="Grad" className='graph'></img>
-                    <p className='b1t'> I am an operations and <br /> information systems  student with a concentration in <b>statistics!</b></p>
-                </motion.div>
+                    </div>
 
 
-                <motion.div className='b4' initial={{opacity:0}} animate={{opacity:1}} transition={{delay:7}}>
-                    <img src={image6} alt="Grad" className='graph'></img>
-                    <p className='b1t'> I love using tech as a way <br /> to be creative and explore data!</p>
-                </motion.div>
 
-                <motion.div className='b5' initial={{opacity:0}} animate={{opacity:1}} transition={{delay:8}}>
-                    <img src={image5} alt="Grad" className='graph'></img>
-                    <p className='b1t'> I have a dog named Koddy, whom I love taking to the <br /> dog park!</p>
-                </motion.div>
 
+
+
+
+
+
+                    
+
+                <div className='row'>
+
+
+                
+
+
+
+                    <div className='col-sm-4'>
+                                            <motion.div className='fact2'
+                                            initial={{opacity:0}} animate={{opacity:1}} transition={{delay:6}}
+                                            >
+                                            
+                                            <img src={image5} className='grad'></img>
+                                            <p className='fact1t'>I have a Shih Tzu named Koddy, who I love taking to the dog park!</p>
+                                            
+                                            </motion.div>
+                    </div> 
+
+
+
+                    <div className='col-sm-4'>
+                                             <motion.div className='fact2'
+                                             initial={{opacity:0}} animate={{opacity:1}} transition={{delay:7}}
+                                             >
+                                            
+                                            <img src={image7} className='grad'></img>
+                                            <p className='fact1t'>In my spare time, <b>I enjoy being a home-chef</b> as I explore different foods primarily from asian cultures!</p>
+                                            
+                                            </motion.div>
+                    
+                    </div> 
+                    <div className='col-sm-4'>
+                        
+                                            <motion.div className='fact2'
+                                            initial={{opacity:0}} animate={{opacity:1}} transition={{delay:8}}
+                                            >
+                                            
+                                            <img src={image14} className='grad'></img>
+                                            <p className='fact1t'>When I can, I have taken running as a hobby as <b>I try to be ready to run a half-marathon this year!</b></p>
+                                            
+                                            </motion.div>    
+                    </div> 
+
+
+
+
+
+
+
+                </div>
+                
+                </div>
+            </div>
+
+            <div className='col-sm-1'> </div>
+            </div>
+
+
+
+            <div className='row'>
+            <div className='col-sm-4'> </div>
+            <div className='col-sm-4'> 
             
+            <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{delay:9}} className='strip'></motion.div>
+
+            </div>
+            <div className='col-sm-4'> </div>
+            </div>
+       
+
+
+
+
+
+            <div className='row'>
+            <div className='col-sm-2'> </div>
+            <div className='col-sm-3'> 
             
-            <motion.img initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1}} src={image} alt='dog' className='ban'>
+            <motion.img initial={{opacity:0}} animate={{opacity:1}} transition={{delay:10}} src={image8} className='imsg'></motion.img>
 
-            </motion.img>
+            </div>
+            <div className='col-sm-7'> </div>
+            </div>
 
 
-        
-            <motion.img src={image2} alt='dog' className='ban2' initial={{opacity:0}} animate={{opacity:1}} transition={{delay:2}}></motion.img>
+
+
+            <div className='row'>
+            <div className='col-sm-7'> </div>
+            <div className='col-sm-3'> 
+            
+            <motion.img initial={{opacity:0}} animate={{opacity:1}} transition={{delay:11}} src={image9} className='imsg2'></motion.img>
+
+            </div>
+            <div className='col-sm-2'> </div>
+            </div>
+
+
+            <div className='row'>
+            <div className='col-sm-4'> </div>
+            <div className='col-sm-4'> 
+            
+            <div data-aos='fade-up' className='strip'></div>
+
+            </div>
+            <div className='col-sm-4'> </div>
+            </div>
+
+
+            <div className='row'>
+            <div className='col-sm-3'> </div>
+            <div className='col-sm-6'> 
+            
+            <h1 data-aos='fade-up' className='twen'>Here's how my 2021 has gone so far . . .</h1>
+
+            </div>
+            <div className='col-sm-3'> </div>
+            </div>
+
+
+
+            <div className='row'>
+            <div className='col-sm-4'> </div>
+            <div className='col-sm-4'> 
+            
+            <div data-aos='fade-up' className='strip'></div>
+
+            </div>
+            <div className='col-sm-4'> </div>
+            </div>
+
+
+            <div className='row'>
+            <div className='col-sm-2'> </div> 
+            <div className='col-sm-4'> 
+
+
+            <img src={image10} data-aos='fade-right' className='pampers'></img>
+
+
+            </div>
+
+
+            <div className='col-sm-5'> 
+
+            <h2 data-aos='fade-left' className='pamperst'>Procter and Gamble | Pampers, Walmart</h2>
+            <h2 data-aos='fade-left' className='pamperst2'>May-Aug</h2>
+            <p data-aos='fade-left' className='pampersp'>During my summer, I will be working at Procter and Gamble developing product with Pampers under the Walmart Team. The experience will give me a great opportunity to understand what it takes to iterate on product, understand consumer behaviors, leverage data from platforms such Power BI, and lastly, understand stakeholder management. As they say, making real progress takes baby steps!</p>
+
+            <div className='row'>
+
+            <div className='col-sm-6'>
     
-
             </div>
-            
-           
+
+            <div className='col-sm-6'>
     
-            <div className='pg'>
-
-            <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{delay:9}} className='time'></motion.div>
-            <img data-aos='fade-up' src={image8} alt='text' className='text'></img>
-            <img data-aos='fade-up' src={image9} alt='text' className='text2'></img>
-            <div data-aos='fade-up' className='time2'></div>
-            <h2  data-aos='fade-up' className='twentyone'>2021</h2>
-
+            </div> 
             </div>
 
-            <div data-aos='fade-up' className='events'>
-            <div data-aos='fade-up' className='time3'></div>
 
-            <h2 className='pgt' data-aos='fade-right'> Procter and Gamble Intern | Pampers, Walmart</h2>
-            <h2 className='pgt2' data-aos='fade-right'> May - Aug </h2>
-            <p className='pgtt' data-aos='fade-right'> Procter and Gamble is the world’s leading CPG company, and for this summer, I have the pleasure of working for Pamper’s on the Walmart team. I will be developing distribution strategies, drafting new consumer journeys, and understand successful launch strategies.</p>
-            <img src={image10} alt='pamp' className='pamp' data-aos='fade-left'></img>
-            <div className='taga' data-aos='fade-up'>
-                <p className='tagword'>Co-op Experience</p>
+            <div className='row'>
+
+                <div className='col-sm-6'>
+                    <div data-aos='fade-up' className='tag123'> 
+                    <h3 className='tagt'>Co-op Experience</h3>
+                    </div>
+                </div>
+
+                <div data-aos='fade-up' className='col-sm-6'>
+                    <div className='tag456'> 
+                    <h3 className='tagt'>Product Experience</h3>
+            
+                </div>
+                </div> 
             </div>
 
-            <div className='taga2' data-aos='fade-up' >
-                <p className='tagword'>Product Role</p>
             </div>
-
+            <div className='col-sm-2'> </div>
             </div>
 
 
 
 
 
-            <div data-aos='fade-up' className='events2'>
-            <div data-aos='fade-up' className='time3'></div>
 
-            <h2 className='pgt' data-aos='fade-right'> Data-Science Researcher | Toronto Hospital</h2>
-            <h2 className='pgt2' data-aos='fade-right'> Jan - Apr </h2>
-            <p className='pgtt' data-aos='fade-right'> This past semester, I had the opportunity to work with a Toronto Hospital to help develop a goal-based programming model which leveraged prescriptive analytics, Python, and its other data libraries. From the findings, physician quality and speed were strengthened! </p>
-            <img src={image11} alt='pamp' className='pamp' data-aos='fade-left'></img>
-            <img src={image12} alt='pamp1' className='pamp1' data-aos='fade-left'></img>
-            <img src={image13} alt='pamp2' className='pamp2' data-aos='fade-left'></img>
-            <div className='taga' data-aos='fade-up'>
-                <p className='tagword'>Data-Science</p>
-            </div>
+
+
+
+
+            <div className='row'>
+            <div className='col-sm-4'> </div>
+            <div className='col-sm-4'> 
+            
+            <div data-aos='fade-up'className='strip'></div>
 
             </div>
-
-
-            <div data-aos='fade-up' className='events3'>
-            <div data-aos='fade-up' className='time3'></div>
-
-            <h2 className='pgt' data-aos='fade-right'> Coding, Reading, and Running</h2>
-            <h2 className='pgt2' data-aos='fade-right'> Jan - Present </h2>
-            <p className='pgtt' data-aos='fade-right'> I made a commitment to expand my knowledge in more domains that are not just professional! I began learning to code for front-end development, like this website, read more often, and run! Sometimes the biggest change in thought can come from small accumulations of good habits. </p>
-            <img src={image14} alt='pamp' className='a' data-aos='fade-left'></img>
-            <img src={image15} alt='pamp' className='b' data-aos='fade-left'></img>
-            <img src={image16} alt='pamp' className='c' data-aos='fade-left'></img>
-           
-
-            <div className='taga' data-aos='fade-up'>
-                <p className='tagword'>Self-Development</p>
-            </div>
-            <div className='taga2' data-aos='fade-up' >
-                <p className='tagword'>Long Term Goals</p>
+            <div className='col-sm-4'> </div>
             </div>
 
+
+            <div className='row'>
+            <div className='col-sm-1'> </div>
+            <div className='col-sm-5'> 
+
+            
+            <img src={image12} data-aos='fade-right' className='kyrie'></img>
+            <img src={image15} data-aos='fade-right' className='s8'></img>
+
             </div>
+
+            <div className='col-sm-5'> 
+
+            <h2 data-aos='fade-left' className='pamperst'>Product, Product, and Product</h2>
+            <h2 data-aos='fade-left' className='pamperst2'>Jan-Present</h2>
+            <p data-aos='fade-left' className='pampersp'>I’ve been lucky enough to find Product Management early in my career and have loved every moment to learn more about it. During this time period, I have “virtually back-packed” to talk to over 90 PM’s in the past four-months, learning countless lessons. Furthermore, I’ve been able to really hone in on my research skills, working as a prescriptive analytics researcher for a Toronto Hospital and doing PM for a sustainable fashion company! As I continue this journey, I’ve created product analysis’ which you can see on my works and projects, such as the Nike one shown on your left!</p>
+
+
+            <div className='row'>
+
+            <div className='col-sm-6'>
+    
+            </div>
+
+            <div className='col-sm-6'>
+    
+            </div> 
+            </div>
+
+
+
+            <div className='row'>
+
+                <div className='col-sm-6'>
+                    <div className='tag7' data-aos='fade-up'> 
+                    <h3 className='tagt'>Research Analysis</h3>
+                    </div>
+                </div>
+
+                <div className='col-sm-6'>
+                    <div className='tag8' data-aos='fade-up'> 
+                    <h3 className='tagt'>Data-Science</h3>
+
+                </div>
+                </div> 
+                </div>
+
+            </div>
+            <div className='col-sm-2'> </div>
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div className='row'>
+            <div className='col-sm-4'> </div>
+            <div className='col-sm-4'> 
+            
+            <div data-aos='fade-up' className='strip1'></div>
+
+            </div>
+            <div className='col-sm-4'> </div>
+            </div>
+
+
+            <div className='row'>
+            <div className='col-sm-2'> 
+
+
+            <img data-aos='fade-right' src={image17} className='emoji'></img>
+
+
+            </div>
+
+            <div className='col-sm-2'> 
+
+
+            <img data-aos='fade-up' src={image18} className='emoji'></img>
+
+
+            </div>
+
+            <div className='col-sm-2'> 
+
+
+            <img data-aos='fade-left' src={image19} className='emoji'></img>
+
+
+            </div>
+
+
+            <div className='col-sm-5'> 
+
+            <h2 data-aos='fade-left' className='pamperst'>Read, Code, and Run</h2>
+            <h2  data-aos='fade-left'className='pamperst2'>Jan-Present</h2>
+            <p  data-aos='fade-left'className='pampersp'>I’ve always believed that learning something that isn’t your speciality is a way to grow so much faster and offer much more thoughtful inflection. I took up running as a hobby because I honestly admired the mental endurance that runners had and wanted that for myself. I started learning coding again because I enjoyed it in high school, and it offered me a way to build empathy for what developers do on daily basis. Lastly, I returned to daily reading because I wanted to immerse myself in something that I enjoyed, and I look cool in public when I do it sometimes.</p>
+
+            <div className='row'>
+
+            <div className='col-sm-6'>
+                
+            </div>
+
+            <div className='col-sm-6'>
+                
+            </div> 
+            </div>
+
+            <div className='row'>
+
+                <div className='col-sm-6'>
+                    <div data-aos='fade-up' className='tag123'> 
+                    <h3 className='tagt'>Self-Development</h3>
+                    </div>
+                </div>
+
+                <div className='col-sm-6'>
+                    <div data-aos='fade-up' className='tag456'> 
+                    <h3 className='tagt'>Long-Term Goals</h3>
+
+                </div>
+                </div> 
+                </div>
+
+            </div>
+            <div className='col-sm-2'> </div>
+
+            </div>
+
+
+
+            <div className='row'>
+                <div className='space'></div>
+            </div>
+
 
 
         </div>
