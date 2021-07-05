@@ -100,7 +100,7 @@ function Work(){
             <img src={image3} className='soon1'></img>
             <h3 className='soon2'>What I Learned Speaking to 100+ PMs</h3>
             </motion.div>
-
+            </a>
             </div>
             
 
