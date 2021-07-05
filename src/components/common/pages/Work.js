@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 import image from './Spotify.png'
 import image1 from './nike1.png'
 import image2 from './kraken.png'
-import image3 from './writing.png'
+import image3 from './S89.png'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -97,7 +97,7 @@ function Work(){
             whileTap={{ scale: 0.9 }}>
 
             <img src={image3} className='soon1'></img>
-            <h3 className='soon2'>Blog Post: What I Learned Speaking to 100+ PMs</h3>
+            <h3 className='soon2'>What I Learned Speaking to 100+ PMs</h3>
             </motion.div>
 
             </div>
