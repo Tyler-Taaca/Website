@@ -97,12 +97,8 @@ function Work(){
             whileTap={{ scale: 0.9 }}>
 
             <img src={image3} className='soon1'></img>
-            <h3 className='soon2'>Coming Soon</h3>
+            <h3 className='soon2'>Blog Post: What I Learned Speaking to 100+ PMs</h3>
             </motion.div>
-
-
-
-
 
             </div>
             
