@@ -92,6 +92,7 @@ function Work(){
 
 
             <div className='col-sm-2'>
+            <a href='https://tylertaaca-16330.medium.com/i-met-100-product-managers-in-four-months-heres-what-i-learned-5bec84cdef05' className='boo2'>
             <motion.div className='soon' 
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}>
